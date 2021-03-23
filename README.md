@@ -2,7 +2,9 @@
 A shell script tool to export/import/clone Forgerock Access Management and ForgeRock Identity Cloud trees and journeys.
 
 ## Description:
-A shell script to export authentication trees and journeys from any realm to standard output or a file and import into any realm from standard input or a file. The tool includes scripts referenced by scripted decision nodes and when used with Identity Cloud or ForgeOps, the tool includes Email Templates referenced by the Email Template or Email Suspend nodes. Requires curl, jq, and uuidgen to be installed and available.
+A shell script to export authentication trees and journeys from any realm to standard output or a file and import into any realm from standard input or a file. The tool includes scripts referenced by scripted decision nodes and when used with Identity Cloud or ForgeOps, the tool includes Email Templates referenced by the Email Template or Email Suspend nodes. 
+
+curl, jq, and uuidgen are prerequisite tools.
 
 
 ## Usage: 
